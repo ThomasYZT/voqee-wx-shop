@@ -1,0 +1,44 @@
+<!-- <view class="page">
+    <view class="page__bd">
+        <view class="weui-search-bar seach_bar">  
+            <text class="iconfont icon-shangpinliebiao shop_icon"></text>  
+            <view class="weui-search-bar__form search_bar_form">
+
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label search_bar_label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search icon_search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text search_bar_text">搜索</view>
+                </label>
+            </view>
+        </view>
+
+        <view class="weui-cells searchbar-result search_result" wx:if="{{inputVal.length > 0}}">
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view> -->

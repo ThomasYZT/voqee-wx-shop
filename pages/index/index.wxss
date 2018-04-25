@@ -1,0 +1,42 @@
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+
+.seach_bar {
+	border-bottom: none;
+	background-color: inherit;
+}
+
+.shop_icon {
+	font-size: 20px;
+	margin: 0 5px 0 5px;
+}
+
+.search_bar_form {
+	border-radius: 50px;
+	height: 25px;
+	margin-top: 2px;
+}
+
+.search_bar_label {
+	border-radius: 50px;
+}
+
+.search_result {
+	border:none;
+}
+
+.icon_search {
+	line-height: 25px;
+}
+
+.search_bar_text {
+	line-height: 25px;
+}
